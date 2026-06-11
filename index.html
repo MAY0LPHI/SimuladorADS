@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleção de Matéria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body> 
+   
+    <h2>Escolha a Matéria</h2>
+
+    <!-- Toggle: quantidade de questões -->
+    <div class="toggle-wrapper">
+        <span class="toggle-label" id="label-10">10 Questões</span>
+        <label class="toggle-switch" id="toggle-switch-label">
+            <input type="checkbox" id="modo-toggle">
+            <span class="toggle-slider"></span>
+        </label>
+        <span class="toggle-label" id="label-todas">Todas as Questões</span>
+    </div>
+    <div class="container">
+        <h3>5º Semestre Modulo 2</h3>
+        <div class="materia-buttons">
+            <button class="materia-btn" onclick="startQuiz('Dados não Relacionais')">Dados não Relacionais</button>
+            <button class="materia-btn" onclick="startQuiz('Dispositivos Moveis')">Dispositivos Moveis</button>
+            <button class="materia-btn" onclick="startQuiz('Sistema de apoio')">Sistemas de Apoio</button>
+        </div>
+    </div>
+    
+    <div class="container">
+        <h3>5º Semestre Modulo 1</h3>
+        <div class="materia-buttons">
+            <button class="materia-btn" onclick="startQuiz('Aspectos Legais da Tecnologia da Informação Recuperação')">Aspectos Legais da Tecnologia da Informação Recuperação</button>
+            <button class="materia-btn" onclick="startQuiz('Gestão de Projetos de Software')">Gestão de Projetos de Software</button>
+            <button class="materia-btn" onclick="startQuiz('Gestão de Qualidade de Software')">Gestão de Qualidade de Software</button>
+            <button class="materia-btn" onclick="startQuiz('Aspectos Legais da Tecnologia da Informação')">Aspectos Legais da Tecnologia da Informação</button>
+        </div>
+    </div>
+    <div class="container">
+        <h3>4º Semestre</h3>    
+        <div class="materia-buttons">
+            <button class="materia-btn" onclick="startQuiz('Arquitetura de Sistemas')">Arquitetura de Sistemas</button>
+            <button class="materia-btn" onclick="startQuiz('Arq AOP´s e Dicas')">Arquitetura - GPT, AOP´s e Dicas</button>           
+            <button class="materia-btn" onclick="startQuiz('Fundamentos de Redes de Computadores')">Fundamentos de Redes de Computadores</button>
+            <button class="materia-btn" onclick="startQuiz('Governança de Tecnologia da Informação')">Governança de Tecnologia da Informação</button>
+            <button class="materia-btn" onclick="startQuiz('Empreendorismo')">Empreendorismo</button>
+            <button class="materia-btn" onclick="startQuiz('Segurança da Informação')">Segurança da Informação</button>
+        </div>
+    </div>
+    <div class="container">
+        <h3>3º Semestre</h3>
+        <div class="materia-buttons">
+            <button class="materia-btn" onclick="startQuiz('Sistemas Operacionais')">Sistemas Operacionais</button>
+        </div>
+    </div>
+   
+
+    <script>
+        function startQuiz(materia) {
+            const todas = document.getElementById('modo-toggle').checked;
+            const modo = todas ? 'todas' : '10';
+            window.location.href = `./Quiz.html?materia=${encodeURIComponent(materia)}&modo=${modo}`;
+        }
+
+        // Atualiza visuais do toggle
+        document.getElementById('modo-toggle').addEventListener('change', function() {
+            const label10 = document.getElementById('label-10');
+            const labelTodas = document.getElementById('label-todas');
+            if (this.checked) {
+                labelTodas.classList.add('active-label');
+                label10.classList.remove('active-label');
+            } else {
+                label10.classList.add('active-label');
+                labelTodas.classList.remove('active-label');
+            }
+        });
+
+        // Inicia com label 10 ativo
+        document.getElementById('label-10').classList.add('active-label');
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+

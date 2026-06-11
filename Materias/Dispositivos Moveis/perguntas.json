@@ -1,0 +1,278 @@
+[
+  {
+    "question": "O que é desenvolvimento para dispositivos móveis?",
+    "options": [
+      { "text": "Criação de aplicativos para computadores", "img": "" },
+      { "text": "Criação de aplicativos ou softwares para smartphones, tablets e outros dispositivos móveis", "img": "" },
+      { "text": "Criação de websites responsivos", "img": "" },
+      { "text": "Desenvolvimento de jogos para consoles", "img": "" },
+      { "text": "Desenvolvimento de sistemas operacionais", "img": "" }
+    ],
+    "Resposta": "Criação de aplicativos ou softwares para smartphones, tablets e outros dispositivos móveis",
+    "explicacao": "Desenvolvimento mobile é o processo de criar softwares especificamente para rodar em dispositivos portáteis como smartphones e tablets."
+  },
+  {
+    "question": "Observe o componente abaixo:\n(Código de exemplo envolvendo HomeScreen, MyStack com Stack.Navigator, ProfileScreen e SettingsScreen)\n\nAo se clicar no botão a tela A deveria ser carregada. Avalie o trecho de código acima. Avalie as afirmativas abaixo:\nI- A tela A não será exibida e sim a Tela B\nPORQUE\nII- Quem está no topo da pilha Stack.Screen é a tela B\n\nÉ correto o que se afirma em:",
+    "options": [
+      { "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.", "img": "" },
+      { "text": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.", "img": "" },
+      { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.", "img": "" },
+      { "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.", "img": "" },
+      { "text": "As asserções I e II são proposições falsas.", "img": "" }
+    ],
+    "Resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+    "explicacao": "No Stack.Navigator, a tela renderizada é a que está no topo da pilha. Se a tela B está no topo, ela será exibida em vez da tela A, tornando ambas as afirmações verdadeiras e II justificando I."
+  },
+  {
+    "question": "Paralelamente ao desenvolvimento de aplicativos nativos usando tecnologia híbrida, há a introdução dos Progressive Web Apps, que são:",
+    "options": [
+      { "text": "Uma aplicação Web que implementa certas especificações técnicas e, em versões mais atuais, sobretudo da plataforma Android, executa em um browser oculto.", "img": "" },
+      { "text": "Uma aplicação voltada para o progresso.", "img": "" },
+      { "text": "Uma aplicação web que visa verificar o progresso dos softwares no seu computador/dispositivo mobile.", "img": "" },
+      { "text": "Uma aplicação que serve para implementar um sistema de navegação off-line progressiva.", "img": "" },
+      { "text": "Todas as alternativas estão corretas.", "img": "" }
+    ],
+    "Resposta": "Uma aplicação Web que implementa certas especificações técnicas e, em versões mais atuais, sobretudo da plataforma Android, executa em um browser oculto.",
+    "explicacao": "PWAs são aplicações web que usam tecnologias modernas (Service Workers, Manifesto) para se comportar como apps nativos, inclusive funcionando offline."
+  },
+  {
+    "question": "Avalie o contexto abaixo:\nConsidere um App que tem um Drawer Navigator que renderiza primeiro o componente HomeScreen. E estando nesta tela, ao se clicar no botão somar, navega-se para a tela ResultScreen, levando consigo os valores que estão nos dois TextInput. E ao se clicar no botão OPEN DRAWER, abre-se o menu. Caso se clique no menu DetailSomar a tela ResultScreen é renderizada. Esta tela deve efetuar a soma dos valores digitados no TextInput, exibir o resultado à frente do texto \"Soma\", e ao se clicar no botão VOLTAR, o resultado é passado de volta para a tela HomeScreen.\n\nAo clicar no botão VOLTAR na tela ResultScreen, o valor da soma é passado de volta para Tela HomeScreen, mas o valor inicial digitado nos campos TextInput permanecem. Para se evitar isso, ao voltar da ResultScreen, estes campos devem ser apagados e preenchidos com zero. Para tal, foi usado o Hook useEffect.\n\nAvalie as afirmativas abaixo:\nI- Ao voltar da tela ResultScreen os campos TextInput estão zerados\nII- O valor passado para ResultScreen será o valor do primeiro TextInput, com o valor digitado do segundo TextInput.\nIII- Ao voltar da tela ResultScreen somente o primeiro TextInput (valor1) estará zerado\nIV- Ao voltar da tela ResultScreen somente o segundo TextInput (valor2) estará zerado\nV- O valor passado para ResultScreen será o valor digitado no primeiro TextInput, com o valor constante do segundo TextInput.\n\nÉ correto o que se afirma em:",
+    "options": [
+      { "text": "I e II, somente.", "img": "" },
+      { "text": "II e V, somente.", "img": "" },
+      { "text": "I, III e IV, somente.", "img": "" },
+      { "text": "III e V, somente.", "img": "" },
+      { "text": "Todas as afirmativas estão corretas.", "img": "" }
+    ],
+    "Resposta": "I e II, somente.",
+    "explicacao": "O useEffect com navigation.addListener e o array de dependências correto zera ambos os TextInput ao voltar (I). O valor passado à ResultScreen é o do primeiro TextInput com o valor digitado do segundo (II)."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é uma maneira comum de classificar as guidelines?",
+    "options": [
+      { "text": "Por plataforma", "img": "" },
+      { "text": "Por área de foco", "img": "" },
+      { "text": "Por público-alvo", "img": "" },
+      { "text": "Por nível de detalhe", "img": "" },
+      { "text": "Por cor preferida", "img": "" }
+    ],
+    "Resposta": "Por cor preferida",
+    "explicacao": "Guidelines de design são classificadas por critérios técnicos e de usabilidade (plataforma, público, nível de detalhe), nunca por preferências subjetivas como cor."
+  },
+  {
+    "question": "Quando se trata do desenvolvimento para dispositivos móveis, os mais utilizados são:\nI- Android Studio\nII- Visual Studio Code\nIII - Atom.IO\nIV- Zcode\nV - IntelliG",
+    "options": [
+      { "text": "I e II somente", "img": "" },
+      { "text": "I e III somente", "img": "" },
+      { "text": "II e IV somente", "img": "" },
+      { "text": "I, IV e V", "img": "" },
+      { "text": "III, IV e V", "img": "" }
+    ],
+    "Resposta": "I e II somente",
+    "explicacao": "Android Studio é a IDE oficial para Android, e o VS Code é amplamente utilizado para desenvolvimento com React Native e frameworks híbridos."
+  },
+  {
+    "question": "Qual das seguintes opções é um sistema operacional comumente usado em dispositivos móveis?",
+    "options": [
+      { "text": "Windows 95", "img": "" },
+      { "text": "Linux Ubuntu", "img": "" },
+      { "text": "Android", "img": "" },
+      { "text": "MS-DOS", "img": "" },
+      { "text": "Debian", "img": "" }
+    ],
+    "Resposta": "Android",
+    "explicacao": "Android é o sistema operacional mobile mais utilizado no mundo, desenvolvido pelo Google e presente na grande maioria dos smartphones."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é verdadeira sobre a API Fetch no React Native?",
+    "options": [
+      { "text": "A API Fetch é fornecida pelo React Native para facilitar as operações de rede.", "img": "" },
+      { "text": "A API Fetch é semelhante ao XMLHttpRequest e a outras APIs de rede populares.", "img": "" },
+      { "text": "Com o Fetch, você pode realizar solicitações HTTP, como GET, POST, PUT, DELETE, entre outras.", "img": "" },
+      { "text": "A API Fetch é baseada em promessas, permitindo o uso de .then() e .catch() para lidar com a resposta da solicitudade.", "img": "" },
+      { "text": "A API Fetch só pode ser usada para realizar solicitações GET.", "img": "" }
+    ],
+    "Resposta": "A API Fetch só pode ser usada para realizar solicitações GET.",
+    "explicacao": "Essa afirmação é falsa. O Fetch suporta todos os métodos HTTP (GET, POST, PUT, DELETE, PATCH, etc.), não apenas GET."
+  },
+  {
+    "question": "Quais são os três tipos de apresentação disponibilizadas pelas ferramentas de mockup?",
+    "options": [
+      { "text": "Desktop, Web e Plugins", "img": "" },
+      { "text": "Desktop, Monitor e Plugins", "img": "" },
+      { "text": "Web, Monitor e Mobile", "img": "" },
+      { "text": "Monitor, Mobile e Desktop", "img": "" },
+      { "text": "Web, Plugins e Mobile", "img": "" }
+    ],
+    "Resposta": "Monitor, Mobile e Desktop",
+    "explicacao": "As ferramentas de mockup permitem visualizar o protótipo nos três formatos principais: Monitor, Mobile e Desktop."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é um conceito principal do React?",
+    "options": [
+      { "text": "Componentes", "img": "" },
+      { "text": "JSX", "img": "" },
+      { "text": "Adereços (Props)", "img": "" },
+      { "text": "Estado (State)", "img": "" },
+      { "text": "Herança", "img": "" }
+    ],
+    "Resposta": "Herança",
+    "explicacao": "React é baseado em Composição, não em Herança. A herança é um conceito de orientação a objetos clássica, enquanto o React encoraja a composição de componentes."
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve a computação ubíqua?",
+    "options": [
+      { "text": "É uma forma de computação que se concentra em dispositivos de hardware grandes e visíveis.", "img": "" },
+      { "text": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário.", "img": "" },
+      { "text": "É uma forma de computação que requer a interação constante do usuário com interfaces físicas explícitas.", "img": "" },
+      { "text": "É um conceito que descreve a necessidade de a tecnologia ser visível e perceptível ao usuário em todos os momentos.", "img": "" },
+      { "text": "É uma forma de computação que se concentra apenas em dispositivos móveis.", "img": "" }
+    ],
+    "Resposta": "É um conceito que descreve a integração da tecnologia na vida cotidiana de forma sutil e transparente, tornando-se tão integrada e invisível que é imperceptível ao usuário.",
+    "explicacao": "Computação ubíqua (Mark Weiser, 1991) é a ideia de que a tecnologia se integra ao ambiente de forma tão natural que o usuário não percebe mais sua presença."
+  },
+  {
+    "question": "Quais ferramentas a seguir são de alta fidelidade de prototipação:",
+    "options": [
+      { "text": "Figma, Adobe XD e Sketch", "img": "" },
+      { "text": "Figma, Draw.io e Sketch", "img": "" },
+      { "text": "Mockflow, Adobe XD e Balsamiq", "img": "" },
+      { "text": "Draw.io, Sketch e Mockflow", "img": "" },
+      { "text": "Todas as alternativas", "img": "" }
+    ],
+    "Resposta": "Figma, Adobe XD e Sketch",
+    "explicacao": "Figma, Adobe XD e Sketch são as ferramentas profissionais líderes para criação de protótipos de alta fidelidade, com recursos avançados de design e interação."
+  },
+  {
+    "question": "Marque as diretrizes de interação com os usuários relacionadas aos padrões visuais no Android:",
+    "options": [
+      { "text": "Usabilidade, Animação, Padrão", "img": "" },
+      { "text": "Animação e Modo escuro", "img": "" },
+      { "text": "Estilo e Componentes, Portabilidade e Usabilidade", "img": "" },
+      { "text": "Layout, Estilo, Leveza e Beleza", "img": "" },
+      { "text": "Layout, Animação e Modo escuro", "img": "" }
+    ],
+    "Resposta": "Layout, Estilo, Leveza e Beleza",
+    "explicacao": "As diretrizes de padrões visuais no Android (Material Design) são organizadas em torno de Layout, Estilo, Leveza e Beleza para garantir consistência visual."
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve o desenvolvimento híbrido?",
+    "options": [
+      { "text": "É uma abordagem que usa tecnologias web padrão para criar um único aplicativo que só pode ser executado em uma plataforma móvel específica.", "img": "" },
+      { "text": "É uma abordagem que usa tecnologias web padrão para criar vários aplicativos que podem ser executados em diferentes plataformas móveis.", "img": "" },
+      { "text": "É uma abordagem que usa tecnologias web padrão para criar um único aplicativo que pode ser executado em diferentes plataformas móveis.", "img": "" },
+      { "text": "É uma abordagem que não permite economizar tempo e esforço, criando um aplicativo de alta qualidade de forma mais econômica e eficiente.", "img": "" },
+      { "text": "É uma abordagem que não usa tecnologias web padrão para criar aplicativos.", "img": "" }
+    ],
+    "Resposta": "É uma abordagem que usa tecnologias web padrão para criar um único aplicativo que pode ser executado em diferentes plataformas móveis.",
+    "explicacao": "O desenvolvimento híbrido usa HTML, CSS e JS em um único código-base que roda tanto em iOS quanto em Android, economizando tempo e recursos."
+  },
+  {
+    "question": "O que é o \"Play Store\" no contexto do desenvolvimento Android?",
+    "options": [
+      { "text": "Um editor de código", "img": "" },
+      { "text": "Uma biblioteca de classes", "img": "" },
+      { "text": "Uma ferramenta de depuração", "img": "" },
+      { "text": "Uma plataforma de distribuição de aplicativos", "img": "" },
+      { "text": "Um emulador de dispositivos", "img": "" }
+    ],
+    "Resposta": "Uma plataforma de distribuição de aplicativos",
+    "explicacao": "A Google Play Store é a loja oficial do Android onde desenvolvedores publicam e usuários baixam aplicativos para seus dispositivos."
+  },
+  {
+    "question": "Qual das seguintes opções é uma framework comumente usada para desenvolvimento de aplicativos Android e iOS?",
+    "options": [
+      { "text": "Python", "img": "" },
+      { "text": "Delphi", "img": "" },
+      { "text": "React native (ou Reacti)", "img": "" },
+      { "text": "C#", "img": "" },
+      { "text": "C", "img": "" }
+    ],
+    "Resposta": "React native (ou Reacti)",
+    "explicacao": "React Native, criado pelo Facebook/Meta, é um dos frameworks multiplataforma mais populares, permitindo criar apps para Android e iOS com JavaScript."
+  },
+  {
+    "question": "O que é computação ubíqua ou pervasiva?",
+    "options": [
+      { "text": "Desenvolvimento de sistemas em nuvem", "img": "" },
+      { "text": "Integração da tecnologia na vida cotidiana de forma sutil e transparente", "img": "" },
+      { "text": "Uso de inteligência artificial em dispositivos móveis", "img": "" },
+      { "text": "Conexão de múltiplos dispositivos através de redes locais", "img": "" },
+      { "text": "Programação de aplicativos de desktop", "img": "" }
+    ],
+    "Resposta": "Integração da tecnologia na vida cotidiana de forma sutil e transparente",
+    "explicacao": "Computação ubíqua (pervasiva) é o paradigma onde a tecnologia está presente em todos os lugares de forma invisível e natural no cotidiano das pessoas."
+  },
+  {
+    "question": "Dado o componente abaixo, avalie as afirmativas.\n(Código export default function App() contendo o estado contador e letra)\n\nAvalie as seguintes asserções abaixo:\nI- O hook useEffect será executado sempre que um botão seja clicado\nPORQUE\nII- o estado contador está sendo monitorado somente durante a primeira renderização\n\nÉ correto o que se afirma em:",
+    "options": [
+      { "text": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.", "img": "" },
+      { "text": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa correta da I.", "img": "" },
+      { "text": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.", "img": "" },
+      { "text": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.", "img": "" },
+      { "text": "As asserções I e II são proposições falsas.", "img": "" }
+    ],
+    "Resposta": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa correta da I.",
+    "explicacao": "Se o useEffect monitora o estado 'contador' no array de dependências, ele executa a cada clique que altera o contador. A asserção II justifica I pois descreve o comportamento do array de dependências."
+  },
+  {
+    "question": "Mockups podem ser desenvolvidos de diversas formas, segundo Mayhew (1999), existem quatro dimensões a serem consideradas quanto à fidelidade de um protótipo de interface do usuário, são elas:",
+    "options": [
+      { "text": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Refinamento estético.", "img": "" },
+      { "text": "Detalhamento, Modo escuro, Publicidade, Mockups", "img": "" },
+      { "text": "Capacidade de ser criado por caneta e papel, Grau de funcionalidade, Beleza, Móvel", "img": "" },
+      { "text": "Detalhamento, Similaridade de interação, Mockups, Capacidade de ser criado por caneta e papel", "img": "" },
+      { "text": "Mockups, Capacidade de criação de software, Compatibilidade entre plataformas, Detalhamento", "img": "" }
+    ],
+    "Resposta": "Detalhamento, Grau de funcionalidade, Similaridade de interação, Refinamento estético.",
+    "explicacao": "Segundo Mayhew (1999), as quatro dimensões de fidelidade de um protótipo são: Detalhamento visual, Grau de funcionalidade, Similaridade de interação e Refinamento estético."
+  },
+  {
+    "question": "Qual das seguintes opções NÃO é uma dimensão considerada na fidelidade de um protótipo de interface do usuário, segundo Mayhew (1999)?",
+    "options": [
+      { "text": "Detalhamento", "img": "" },
+      { "text": "Grau de funcionalidade", "img": "" },
+      { "text": "Similaridade de interação", "img": "" },
+      { "text": "Refinamento estético", "img": "" },
+      { "text": "Tempo de desenvolvimento", "img": "" }
+    ],
+    "Resposta": "Tempo de desenvolvimento",
+    "explicacao": "Mayhew define as 4 dimensões como Detalhamento, Grau de funcionalidade, Similaridade de interação e Refinamento estético. 'Tempo de desenvolvimento' é uma métrica de projeto, não de fidelidade."
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve a diferença entre Progressive Web App (PWA) e Desenvolvimento híbrido?",
+    "options": [
+      { "text": "PWA e Desenvolvimento híbrido são a mesma coisa e não há diferenças entre eles.", "img": "" },
+      { "text": "PWA é acessado através de um navegador da web, enquanto o aplicativo híbrido é instalado no dispositivo móvel e é executado como um aplicativo nativo.", "img": "" },
+      { "text": "PWA é instalado no dispositivo móvel e é executado como um aplicativo nativo, enquanto o aplicativo híbrido é acessado através de um navegador da web.", "img": "" },
+      { "text": "PWA é uma solução mais pesada e lenta enquanto o desenvolvimento híbrido é uma opção mais leve e rápida para aplicativos.", "img": "" },
+      { "text": "PWA e Desenvolvimento híbrido não podem ser usados para criar aplicativos móveis.", "img": "" }
+    ],
+    "Resposta": "PWA é acessado através de um navegador da web, enquanto o aplicativo híbrido é instalado no dispositivo móvel e é executado como um aplicativo nativo.",
+    "explicacao": "A diferença fundamental é que PWA roda no browser (sem instalação na loja), enquanto o app híbrido é empacotado, publicado na loja e instalado no dispositivo."
+  },
+  {
+    "question": "O que são componentes principais do React Native?",
+    "options": [
+      { "text": "Componentes que fornecem acesso aos recursos nativos da plataforma, como câmera, geolocalização, etc.", "img": "" },
+      { "text": "Componentes que são escritos em linguagens nativas da plataforma, como Java, Swift, etc.", "img": "" },
+      { "text": "Componentes que são fornecidos pelo React Native e podem ser usados em qualquer plataforma, como View, Text, Button, etc.", "img": "" },
+      { "text": "Componentes que são criados pelo usuário a partir de outros componentes do React Native, como App, Header, Footer, etc.", "img": "" },
+      { "text": "Componentes que são usados para gerenciar o estado e os dados do aplicativo, como Redux, MobX, etc.", "img": "" }
+    ],
+    "Resposta": "Componentes que são fornecidos pelo React Native e podem ser usados em qualquer plataforma, como View, Text, Button, etc.",
+    "explicacao": "Os Core Components são os blocos de construção fundamentais fornecidos pelo próprio React Native, como View, Text, Image, ScrollView e TextInput."
+  },
+  {
+    "question": "Qual das seguintes afirmações melhor descreve um aplicativo para smartphone?",
+    "options": [
+      { "text": "É um programa que só pode ser baixado em um computador desktop.", "img": "" },
+      { "text": "É um programa que pode ser baixado em um smartphone ou tablet e executado nele para realizar diferentes tarefas, como jogar jogos, se comunicar com outras pessoas, gerenciar tarefas e muito mais.", "img": "" },
+      { "text": "É um programa que não pode ser encontrado em lojas de aplicativos, como a App Store ou a Google Play Store.", "img": "" },
+      { "text": "É um programa que só pode ser usado em dispositivos não móveis, como desktops ou laptops.", "img": "" },
+      { "text": "É um programa que não pode ser baixado ou instalado em dispositivos móveis.", "img": "" }
+    ],
+    "Resposta": "É um programa que pode ser baixado em um smartphone ou tablet e executado nele para realizar diferentes tarefas, como jogar jogos, se comunicar com outras pessoas, gerenciar tarefas e muito mais.",
+    "explicacao": "Aplicativos mobile são softwares projetados especificamente para a experiência touch e as capacidades de hardware de smartphones e tablets."
+  }
+]

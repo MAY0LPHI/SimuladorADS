@@ -1,0 +1,79 @@
+[
+  {
+    "question": "É justo reconhecer que o célebre autor canadense Thomas Erl é um dos mais fervorosos defensores da Arquitetura Orientada a Serviços (SOA) – e, certamente, toda a paixão que ele nutre por essa vertente se deu a partir do claro entendimento das principais características conceituais envolvidas.<br>Fonte: criação do autor.<br>Marque a alternativa correta sobre as vantagens da SOA:",
+    "options": [
+      { "text": "Garante consistência de dados em tempo real." },
+      { "text": "Evita a necessidade de qualquer forma de monitoramento." },
+      { "text": "Facilita a escalabilidade e a modularidade." },
+      { "text": "Simplifica a integração de serviços legados." },
+      { "text": "Depende de uma base de dados monolítica." }
+    ],
+    "Resposta": "Facilita a escalabilidade e a modularidade."
+  },
+  {
+    "question": "A aplicação dos padrões arquitetural MVC, MVP e MVVM varia de acordo com o contexto do projeto, a complexidade da aplicação e as tecnologias utilizadas. O padrão MVC (Model-View-Controller) é amplamente utilizado em algumas determinadas aplicações por suas distintas características.<br>Fonte: criação do autor.<br>Sobre a aplicação do padrão MVC, marque a alternativa correta a seguir.",
+    "options": [
+      { "text": "Facilita a colaboração entre equipes de front-end e back-end." },
+      { "text": "É ideal para aplicações desktop simples." },
+      { "text": "É raramente utilizado em aplicações web modernas." },
+      { "text": "Dificulta a manutenção independente dos componentes." },
+      { "text": "É incompatível com frameworks populares." }
+    ],
+    "Resposta": "Garantir o desempenho de um sistema de software é crucial para atender às expectativas dos usuários e manter a competitividade no mercado. Em arquiteturas de sistemas, diversos fatores influenciam o desempenho, incluindo tempo de resposta, taxa de transferência e capacidade de lidar com grandes volumes de dados.<br>Fonte: criação do autor.<br>Facilita a colaboração entre equipes de front-end e back-end."
+  },
+  {
+    "question": "Garantir o desempenho de um sistema de software é crucial para atender às expectativas dos usuários e manter a competitividade no mercado. Em arquiteturas de sistemas, diversos fatores influenciam o desempenho, incluindo tempo de resposta, taxa de transferência e capacidade de lidar com grandes volumes de dados.<br>Fonte: criação do autor.<br>Marque a alternativa a seguir que está correta sobre as práticas de otimização de desempenho:",
+    "options": [
+      { "text": "A otimização de código é desnecessária em arquiteturas distribuídas." },
+      { "text": "O tempo de resposta não é afetado pelo número de requisições simultâneas." },
+      { "text": "O balanceamento de carga reduz a latência para dados em repouso." },
+      { "text": "A computação in-memory é ideal para reduzir o tráfego de rede." },
+      { "text": "O uso de caching melhora o tempo de resposta em sistemas web." }
+    ],
+    "Resposta": "O uso de caching melhora o tempo de resposta em sistemas web."
+  },
+  {
+    "question": " implementação de projetos em Python utilizando as arquiteturas SOA, microsserviços e orientada a eventos envolve diversas etapas e técnicas, que todo bom profissional envolvido em projetos de sistemas informatizados precisa dominar.<br>Fonte: criação do autor.<br>Considere as afirmações a seguir sobre a implementação de projetos em Python utilizando essas arquiteturas. Marque V para verdadeiro e F para falso:<br>( ) O Flask é comumente utilizado para desenvolver APIs REST em uma arquitetura de microsserviços.<br>( ) Em SOA, cada serviço deve compartilhar a mesma base de dados para manter a consistência.<br>( ) O uso de bibliotecas de mensageria como Kafka é comum em arquiteturas orientadas a eventos para comunicação assíncrona.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras e falsas.",
+    "options": [
+      { "text": "V - F - F" },
+      { "text": "F - F - V" },
+      { "text": "V - F - V" },
+      { "text": "V - V - F" },
+      { "text": "F - V - V" }
+    ],
+    "Resposta": "F - V - V"
+  },
+  {
+    "question": "No DevOps, a prática de monitoramento contínuo desempenha um papel de suma importância para garantir a estabilidade e o desempenho de aplicações em produção. Além disso, o uso de ferramentas como Prometheus e Grafana permite a visualização em tempo real das métricas, auxiliando no diagnóstico de falhas e na melhoria da performance.<br>Fonte: criação do autor.<br>A partir disso, veja as assertivas abaixo:<br>I. O monitoramento contínuo em DevOps ajuda a detectar falhas antes que impactem os usuários.<br>II. Ferramentas como Prometheus são utilizadas apenas para monitorar redes, sem integração com aplicações.<br>III. O Grafana permite a criação de dashboards personalizados para acompanhar métricas de desempenho.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras.",
+    "options": [
+      { "text": "Somente a I e II." },
+      { "text": "Somente a III." },
+      { "text": "I, II e III." },
+      { "text": "Somente a I e III." },
+      { "text": "Somente a II e III." }
+    ],
+    "Resposta": "Somente a I e III."
+  },
+  {
+    "question": "No DevOps, o feedback contínuo desempenha um papel crucial para a melhoria constante dos processos de desenvolvimento e operação. Essa, aliás, é revelando uma das maiores razões da grande popularidade da abordagem DevOps.<br>Fonte: Criação do autor.<br>Marque a alternativa correta, entre as que estão a seguir, sobre os benefícios do feedback contínuo no DevOps:",
+    "options": [
+      { "text": "No DevOps, o feedback contínuo substitui a necessidade de testes automatizados, pois os problemas são identificados ao longo do tempo." },
+      { "text": "O feedback contínuo promove uma cultura na qual apenas a equipe de operações é responsável por reportar falhas e sugerir melhorias." },
+      { "text": "O feedback contínuo ajuda a identificar problemas rapidamente, promovendo ajustes rápidos e melhorias contínuas no software." },
+      { "text": "O feedback contínuo só é relevante após a implementação do software em produção, quando se pode medir o desempenho." },
+      { "text": "O feedback contínuo é utilizado apenas durante o desenvolvimento inicial do código, pois após a implantação o software já está otimizado." }
+    ],
+    "Resposta": "O feedback contínuo ajuda a identificar problemas rapidamente, promovendo ajustes rápidos e melhorias contínuas no software."
+  },
+  {
+    "question": "No DevOps, a colaboração contínua entre equipes de desenvolvimento e operações é essencial para o sucesso da metodologia. A responsabilidade compartilhada e o feedback constante promovem a rápida identificação de problemas e garantem que o software atenda aos padrões de qualidade e segurança.<br>Fonte: criação do autor.<br>Considere as afirmações a seguir sobre colaboração e responsabilidade no DevOps. Marque V para verdadeiro e F para falso:<br>( ) A responsabilidade compartilhada no DevOps significa que a mesma equipe que desenvolve o software é responsável por sua operação em produção, promovendo maior cuidado com o código<br>( ) No DevOps, o feedback contínuo só é relevante após a fase de desenvolvimento, quando o software já está em produção<br>( ) A comunicação entre as equipes de desenvolvimento e operações é um dos pilares do DevOps, garantindo uma visão unificada do ciclo de vida do software.<br>Marque a alternativa a seguir que está correta em indicar quais das assertivas acima são verdadeiras e falsas.",
+    "options": [
+      { "text": "V - F - F" },
+      { "text": "F - V - V" },
+      { "text": "V - F - V" },
+      { "text": "V - V - F" },
+      { "text": "F - F - V" }
+    ],
+    "Resposta": "V - F - V"
+  }
+]
